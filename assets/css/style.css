@@ -98,3 +98,55 @@ img {
 .banner-image {
   flex: 1;
 }
+
+/* our plant section start */
+.plants {
+  margin-top: 120px;
+}
+.plants-content {
+  text-align: center;
+}
+.plants-content h1 {
+  color: #e95a08;
+  font-family: "Noto Serif";
+  font-size: 50px;
+  font-weight: 700;
+}
+.plants-content h1 span {
+  color: #000;
+  font-family: "Noto Serif";
+  font-size: 50px;
+  font-weight: 700;
+}
+.plants-content p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.plants-boxes {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.plant-info {
+  text-align: center;
+}
+.plant-info h3 {
+  margin-top: 30px;
+  color: #111;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.plant-info p {
+  margin-bottom: 30px;
+  color: #111;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 150%;
+}
