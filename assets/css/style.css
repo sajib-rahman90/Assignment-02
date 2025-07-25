@@ -131,7 +131,7 @@ img {
   margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  gap: 25px;
 }
 .plant-info {
   text-align: center;
@@ -183,6 +183,7 @@ img {
   flex: 1;
 }
 .plants-lover-content h1 {
+  width: 70%;
   color: #000;
   font-family: "Noto Serif";
   font-size: 50px;
@@ -259,7 +260,7 @@ img {
   left: 0px;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.5);
   z-index: 0;
 }
 .left-bloom h4,
@@ -304,7 +305,7 @@ p {
   left: 0px;
   width: 100%;
   height: 99%;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.5);
   z-index: 0;
 }
 .left-ana h4,
@@ -348,7 +349,7 @@ p {
   left: 0px;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.5);
   z-index: 0;
 }
 .right-zabo h4,
@@ -412,6 +413,7 @@ p {
   display: flex;
   height: 49px;
   padding: 11px 34px;
+  justify-content: center;
   align-items: center;
 }
 
@@ -456,4 +458,148 @@ footer {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+/* responsive for mobile device */
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 1140px;
+    margin: 0 20px;
+  }
+  .nav-links ul li:nth-child(1) a,
+  .nav-links ul li:nth-child(2) a,
+  .nav-links ul li:nth-child(3) a {
+    display: none;
+  }
+  /* banner section responsive */
+  .banner {
+    margin-bottom: 65px;
+    flex-direction: column-reverse;
+  }
+  .plants-content {
+    width: 95%;
+  }
+  .banner-content h1,
+  .banner-content h1.flowers,
+  .banner-content h1 span {
+    font-size: 40px;
+  }
+
+  .banner-content p {
+    font-size: 20px;
+  }
+
+  /* our plant section responsive */
+  .plants-content h1,
+  .plants-content h1 span {
+    font-size: 40px;
+  }
+  .plants-content p {
+    font-size: 20px;
+  }
+  .plants-boxes {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .plant-info h3,
+  .plant-info p {
+    font-size: 20px;
+  }
+  /* plants lover section responsive */
+  .plants-lover {
+    margin-top: 45px;
+    margin-bottom: 140px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .plants-lover-image {
+    flex: none;
+    background-position: center;
+  }
+  .plants-lover-image img {
+    display: none;
+  }
+  .plants-lover-content h1 {
+    width: 100%;
+    font-size: 40px;
+  }
+  .plants-lover-content ul p,
+  .leates-deals-content p {
+    font-size: 20px;
+  }
+  /* leates deals section responsive */
+  .leates-deals-content {
+    max-width: 90%;
+    margin-bottom: 60px;
+  }
+  .leates-deals-content h1,
+  .leates-deals-content span {
+    font-size: 40px;
+  }
+
+  .leates-deals-images {
+    grid-template-columns: 1fr;
+  }
+
+  .left-bloom {
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+  }
+  .left-bloom h4,
+  .left-ana h4,
+  .right-zabo h4 {
+    font-size: 40px;
+  }
+  .left-bloom p,
+  .left-ana p,
+  .right-zabo p {
+    font-size: 22px;
+  }
+
+  .left-ana {
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    border-radius: 0px;
+  }
+
+  .right-zabo {
+    width: 100%;
+    height: 250px;
+  }
+  /* join section responsive */
+  .join-section {
+    margin-top: 70px;
+    height: 325px;
+    background-size: cover;
+  }
+  .join-section h1 {
+    font-size: 40px;
+  }
+  .join-btn {
+    width: 82%;
+  }
+  /* footer section responsive */
+  footer {
+    padding: 60px 25px;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    justify-items: normal;
+  }
+  .footer-content {
+    width: 57%;
+  }
+  .footer-content p {
+    font-size: 20px;
+  }
+  .footer-links-1 a,
+  .footer-links-2 a {
+    font-size: 20px;
+  }
 }
