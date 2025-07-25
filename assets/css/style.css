@@ -16,7 +16,7 @@ img {
 }
 .btn-primary {
   width: 100%;
-  padding: 22px 50px;
+  padding: 19px 45px;
   gap: 10px;
   background: #e95a08;
   align-self: stretch;
@@ -466,6 +466,10 @@ footer {
     max-width: 1140px;
     margin: 0 20px;
   }
+  .btn-primary {
+    padding: 17px 35px;
+    font-size: 18px;
+  }
   .nav-links ul li:nth-child(1) a,
   .nav-links ul li:nth-child(2) a,
   .nav-links ul li:nth-child(3) a {
@@ -486,7 +490,7 @@ footer {
   }
 
   .banner-content p {
-    font-size: 20px;
+    font-size: 17px;
   }
 
   /* our plant section responsive */
@@ -495,7 +499,7 @@ footer {
     font-size: 40px;
   }
   .plants-content p {
-    font-size: 20px;
+    font-size: 17px;
   }
   .plants-boxes {
     grid-template-columns: repeat(2, 1fr);
@@ -527,7 +531,7 @@ footer {
   }
   .plants-lover-content ul p,
   .leates-deals-content p {
-    font-size: 20px;
+    font-size: 17px;
   }
   /* leates deals section responsive */
   .leates-deals-content {
@@ -551,12 +555,12 @@ footer {
   .left-bloom h4,
   .left-ana h4,
   .right-zabo h4 {
-    font-size: 40px;
+    font-size: 32px;
   }
   .left-bloom p,
   .left-ana p,
   .right-zabo p {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .left-ana {
@@ -596,10 +600,10 @@ footer {
     width: 57%;
   }
   .footer-content p {
-    font-size: 20px;
+    font-size: 17px;
   }
   .footer-links-1 a,
   .footer-links-2 a {
-    font-size: 20px;
+    font-size: 17px;
   }
 }
